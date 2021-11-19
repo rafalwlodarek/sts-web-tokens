@@ -1,0 +1,53 @@
+$font-body: Inter, Arial, sans-serif;
+$font-display: TT Supermolot Neue;
+$font-display-exp: TT Supermolot Neue Exp;
+
+// Base Typography mixin – used in component mixins
+@mixin typography-token($font-family, $font-weight, $font-size, $font-height, $font-spacing, $font-align: null, $font-case: null, $font-decoration: null, $font-numerals: null) {
+    font-family: $font-family;
+    font-weight: $font-weight;
+    font-size: $font-size;
+    line-height: $font-height;
+    letter-spacing: $font-spacing;
+    text-align: $font-align;
+    text-transform: $font-case;
+    text-decoration: $font-decoration;
+    font-variant-numeric: $font-numerals;
+}
+
+@mixin badge-counter {
+    // Counter Badge / number
+    @include typography-token($font-body, 600, 10px, 12px, 0.25px)
+}
+@mixin button-header-player-menu-label {
+    // Account button / wallet name label
+    @include typography-token($font-body, 500, 11px, 12px, 0.25px, right)
+}
+@mixin button-header-player-menu-amount {
+    // Account button / wallet amount
+    @include typography-token($font-heading, 600, 16px, 16px, 0.5px, right)
+}
+@mixin tooltip-label {
+    // Player menu button / tooltip on :hover
+    @include typography-token($font-body, 600, 10px, 12px, 0.25px, center)
+}
+@mixin menu-subheader {
+// Subheader menu
+    @include typography-token($font-body, 500, 12px, 16px, 0.35px)
+}
+@mixin menu-product-list {
+    // Product menu, horizontal variant – breakpoints >= M 
+    @include typography-token($font-heading, 600, 16px, 24px, 0.5px)
+}
+@mixin menu-product-carousel {
+    // Product menu, vertical variant – breakpoints XS, S 
+    @include typography-token($font-body, 500, 10px, 12px, 0.3px, center)
+}
+@mixin button-header-primary {
+    // Primary button label, header variant
+    @include typography-token($font-heading, 600, 16px, 24px, 0.5px)
+}
+@mixin button-header-secondary {
+    // Secondary button label, header variant
+    @include typography-token($font-heading, 600, 16px, 24px, 0.5px)
+}
