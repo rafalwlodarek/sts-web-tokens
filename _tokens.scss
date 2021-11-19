@@ -108,32 +108,31 @@ $elevation-02: 0px 2px 8px -2px hsla(0, 0%, 0%, 0.2);
 // ---------- COMPONENT TOKENS ----------
 
 // Header / Button / Player Menu
-$button-header-player-menu-background: $color-transparent-light-200;
-$button-header-player-menu-background-hover: $color-transparent-light-400;
-$button-header-player-menu-background-pressed: $color-transparent-light-100;
-$button-header-player-menu-background-active: $color-transparent-dark-400;
-$button-header-player-menu-icon-color: $color-neutral-100;
-$button-header-player-menu-text-color: $color-neutral-100;
-$button-header-player-menu-separator-color: $color-transparent-light-400;
-$button-header-player-menu-radius: $radius-md;
+$color-background-button-header-player-menu: $color-transparent-light-200;
+$color-background-button-header-player-menu-hover: $color-transparent-light-400;
+$color-background-button-header-player-menu-pressed: $color-transparent-light-100;
+$color-background-button-header-player-menu-active: $color-transparent-dark-400;
+$color-background-button-header-primary: $color-gradient-orange;
+$color-background-button-header-primary-hover: $color-orange-300;
+$color-background-button-header-primary-pressed: $color-orange-400;
+$color-background-button-header-secondary: $color-transparent-light-200;
+$color-background-button-header-secondary-hover: $color-transparent-light-400;
+$color-background-button-header-secondary-pressed: $color-transparent-light-100;
+$color-icon-button-header-primary: $color-neutral-900;
+$color-icon-button-header-secondary: $color-neutral-100;
+$color-icon-button-header-player-menu: $color-neutral-100;
+$color-text-button-header-player-menu: $color-neutral-100;
+$color-text-button-header-primary: $color-neutral-900;
+$color-text-button-header-secondary: $color-neutral-100;
+$color-separator-button-header-player-menu: $color-transparent-light-400;
 
-// Header / Button / Primary 
-$button-header-primary-background: $color-gradient-orange;
-$button-header-primary-background-hover: $color-orange-300;
-$button-header-primary-background-pressed: $color-orange-400;
-$button-header-primary-text-color: $color-neutral-900;
-$button-header-primary-icon-color: $color-neutral-900;
-$button-header-primary-label-padding: 8px 16px;
-$button-header-primary-icon-label-padding: 8px 12px 8px 8px;
-$button-header-primary-icon-padding: 8px;
-$button-header-primary-elevation: $elevation-01;
-$button-header-primary-elevation-hover: $elevation-02;
-$button-header-primary-radius: $radius-md;
+$spacing-padding-button-header-primary-label: 8px 16px;
+$spacing-padding-button-header-primary-icon-label: 8px 12px 8px 8px;
+$spacing-padding-button-header-primary-icon: 8px;
 
-// Header / Button / Secondary
-$button-header-secondary-background: $color-transparent-light-200;
-$button-header-secondary-background-hover: $color-transparent-light-400;
-$button-header-secondary-background-pressed: $color-transparent-light-100;
-$button-header-secondary-text-color: $color-neutral-100;
-$button-header-secondary-icon-color: $color-neutral-100;
-$button-header-secondary-radius: $radius-md;
+$radius-button-header-player-menu: $radius-md;
+$radius-button-header-primary: $radius-md;
+$radius-button-header-secondary: $radius-md;
+
+$elevation-button-header-primary: $elevation-01;
+$elevation-button-header-primary-hover: $elevation-02;
