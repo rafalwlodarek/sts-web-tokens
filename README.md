@@ -1,5 +1,11 @@
 # sts-web-tokens
-Design tokens for web platform
+Design tokens for web platform<br>
+#### Default states and variants
+`default` names are ommited in the naming structure to keep the token names short and readable. <br>
+**Example**  
+`$button-header-primary-background` (default state is implicit here and not added to the token name)
+`$button-header-primary-background-hover`  
+
 ### main branch
 Tokens in the main branch follow component-first naming convention. Component name comes before token category.<br>
 `component`-`variant`-`...`-`element`-`category`-`state`<br><br>
