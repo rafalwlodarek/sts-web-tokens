@@ -110,6 +110,8 @@ $elevation-02: 0px 2px 8px -2px hsla(0, 0%, 0%, 0.2);
 // ---- BUTTONS
 
 // Button / Player Menu
+$button-player-menu-radius: $radius-md;
+// -- Dark mode
 $button-player-menu-background-color: $color-transparent-light-200;
 $button-player-menu-background-color-hover: $color-transparent-light-400;
 $button-player-menu-background-color-pressed: $color-transparent-light-100;
@@ -117,7 +119,14 @@ $button-player-menu-background-color-active: $color-transparent-dark-400;
 $button-player-menu-icon-color: $color-neutral-100;
 $button-player-menu-text-color: $color-neutral-100;
 $button-player-menu-separator-color: $color-transparent-light-400;
-$button-player-menu-radius: $radius-md;
+// -- Light mode
+$button-player-menu-background-color-on-light: $color-transparent-dark-200;
+$button-player-menu-background-color-hover-on-light: $color-transparent-dark-400;
+$button-player-menu-background-color-pressed-on-light: $color-transparent-dark-100;
+$button-player-menu-background-color-active-on-light: $color-transparent-light-400;
+$button-player-menu-icon-color-on-light: $color-neutral-900;
+$button-player-menu-text-color-on-light: $color-neutral-900;
+$button-player-menu-separator-color-on-light: $color-transparent-dark-400;
 
 // Button / Primary 
 $button-primary-background-color: $color-gradient-orange;
