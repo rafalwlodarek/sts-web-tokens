@@ -107,33 +107,109 @@ $elevation-02: 0px 2px 8px -2px hsla(0, 0%, 0%, 0.2);
 
 // ---------- COMPONENT TOKENS ----------
 
-// Header / Button / Player Menu
-$button-header-player-menu-background: $color-transparent-light-200;
-$button-header-player-menu-background-hover: $color-transparent-light-400;
-$button-header-player-menu-background-pressed: $color-transparent-light-100;
-$button-header-player-menu-background-active: $color-transparent-dark-400;
-$button-header-player-menu-icon-color: $color-neutral-100;
-$button-header-player-menu-text-color: $color-neutral-100;
-$button-header-player-menu-separator-color: $color-transparent-light-400;
-$button-header-player-menu-radius: $radius-md;
+// ---- BUTTONS
 
-// Header / Button / Primary 
-$button-header-primary-background: $color-gradient-orange;
-$button-header-primary-background-hover: $color-orange-300;
-$button-header-primary-background-pressed: $color-orange-400;
-$button-header-primary-text-color: $color-neutral-900;
-$button-header-primary-icon-color: $color-neutral-900;
-$button-header-primary-label-padding: 8px 16px;
-$button-header-primary-icon-label-padding: 8px 12px 8px 8px;
-$button-header-primary-icon-padding: 8px;
-$button-header-primary-elevation: $elevation-01;
-$button-header-primary-elevation-hover: $elevation-02;
-$button-header-primary-radius: $radius-md;
+// Button / Player Menu
+$button-player-menu-background-color: $color-transparent-light-200;
+$button-player-menu-background-color-hover: $color-transparent-light-400;
+$button-player-menu-background-color-pressed: $color-transparent-light-100;
+$button-player-menu-background-color-active: $color-transparent-dark-400;
+$button-player-menu-icon-color: $color-neutral-100;
+$button-player-menu-text-color: $color-neutral-100;
+$button-player-menu-separator-color: $color-transparent-light-400;
+$button-player-menu-radius: $radius-md;
 
-// Header / Button / Secondary
-$button-header-secondary-background: $color-transparent-light-200;
-$button-header-secondary-background-hover: $color-transparent-light-400;
-$button-header-secondary-background-pressed: $color-transparent-light-100;
-$button-header-secondary-text-color: $color-neutral-100;
-$button-header-secondary-icon-color: $color-neutral-100;
-$button-header-secondary-radius: $radius-md;
+// Button / Primary 
+$button-primary-background-color: $color-gradient-orange;
+$button-primary-background-color-hover: $color-orange-300;
+$button-primary-background-color-pressed: $color-orange-400;
+$button-primary-text-color: $color-neutral-900;
+$button-primary-icon-color: $color-neutral-900;
+$button-primary-elevation: $elevation-01;
+$button-primary-elevation-hover: $elevation-02;
+$button-primary-radius: $radius-md;
+// -- size: compact
+$button-primary-compact-label-padding: 8px 16px;
+$button-primary-compact-icon-label-padding: 8px 12px 8px 8px;
+$button-primary-compact-icon-padding: 8px;
+$button-primary-compact-height: 40px;
+
+// Button / Secondary
+$button-secondary-radius: $radius-md;
+// -- variant: neutral
+$button-secondary-neutral-background-color: $color-transparent-light-200;
+$button-secondary-neutral-background-color-hover: $color-transparent-light-400;
+$button-secondary-neutral-background-color-pressed: $color-transparent-light-100;
+$button-secondary-neutral-text-color: $color-neutral-100;
+$button-secondary-neutral-icon-color: $color-neutral-100;
+// -- size: compact
+$button-secondary-compact-label-padding: 8px 16px;
+$button-secondary-compact-icon-label-padding: 8px 12px 8px 8px;
+$button-secondary-compact-height: 40px;
+
+// ---- HEADER
+
+// Header / Menu / Item
+$header-menu-item-text-color: $color-neutral-400;
+$header-menu-item-text-color-hover: $color-neutral-0;
+$header-menu-item-text-color-pressed: $color-neutral-0;
+$header-menu-item-text-color-active: $color-neutral-0;
+$header-menu-item-indicator-color-hover: $color-transparent-light-500;
+$header-menu-item-indicator-color-active: $color-orange-300;
+$header-menu-item-indicator-radius: $radius-xs $radius-xs 0px 0px;
+$header-menu-item-padding: 0px 8px;
+
+// Header / Menu
+$header-menu-spacing: 8px;
+
+// Subheader
+$subheader-height: 32px;
+
+// Subheader / Menu / Item
+$subheader-menu-item-text-color: $color-transparent-light-1000;
+$subheader-menu-item-text-color-hover: $color-neutral-0;
+$subheader-menu-item-badge-spacing: 4px;
+
+// Subheader / Menu
+$subheader-menu-spacing: 24px;
+
+// ---- NAVIGATION
+
+// Navigation / Product Menu / Item
+$nav-product-menu-item-text-color: $color-neutral-400;
+$nav-product-menu-item-icon-color: $color-neutral-100;
+$nav-product-menu-item-icon-color-active: $color-orange-300;
+$nav-product-menu-item-background-color: $color-transparent-light-50;
+$nav-product-menu-item-background-color-hover: $color-transparent-light-100;
+$nav-product-menu-item-background-color-pressed: $color-transparent-light-50;
+$nav-product-menu-item-background-color-active: hsla(40, 100%, 50%, 0.1);
+$nav-product-menu-item-border-color-hover: $color-transparent-light-100;
+$nav-product-menu-item-border-color-pressed: $color-transparent-light-50;
+$nav-product-menu-item-border-color-active: $color-orange-500;
+$nav-product-menu-item-radius: $radius-xl;
+$nav-product-menu-item-width: 80px;
+
+// Navigation / Product Menu
+$nav-product-menu-spacing: 0px;
+
+// ---- TOOLTIP
+
+// Tooltip / Default
+$tooltip-background-color: $color-neutral-0;
+$tooltip-padding: 4px 8px;
+$tooltip-text-color: $color-neutral-900;
+$tooltip-elevation: 0px 4px 20px -6px hsla(216, 35%, 15%, 0.3);
+
+// ---- BADGE
+
+// Badge / Counter
+$badge-counter-radius: $radius-full;
+$badge-counter-height: 16px;
+$badge-counter-min-width: 16px;
+$badge-counter-padding: 4px;
+// -- variant: default
+$badge-counter-background-color: $color-neutral-700;
+$badge-counter-background-color-active: hsla(30, 100%, 35%, 1);
+// -- variant: highlight
+$badge-counter-highlight-background-color: $color-red-500;
+$badge-counter-highlight-text-color: $color-neutral-0;
