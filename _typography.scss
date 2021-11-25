@@ -17,37 +17,37 @@ $font-display-exp: TT Supermolot Neue Exp;
 
 @mixin badge-counter {
     // Counter Badge / number
-    @include typography-token($font-body, 600, 10px, 12px, 0.25px)
+    @include typography-token($font-body, 600, 0.625rem, 0.75rem, 0.25px)
 }
-@mixin button-header-player-menu-label {
+@mixin button-player-menu-label {
     // Account button / wallet name label
-    @include typography-token($font-body, 500, 11px, 12px, 0.25px, right)
+    @include typography-token($font-body, 500, 0,625rem, 0.75rem, 0.25px, right)
 }
-@mixin button-header-player-menu-amount {
+@mixin button-player-menu-amount {
     // Account button / wallet amount
-    @include typography-token($font-heading, 600, 16px, 16px, 0.5px, right)
+    @include typography-token($font-heading, 600, 1rem, 1rem, 0.5px, right)
 }
 @mixin tooltip-label {
-    // Player menu button / tooltip on :hover
-    @include typography-token($font-body, 600, 10px, 12px, 0.25px, center)
+    // Default tooltip label
+    @include typography-token($font-body, 600, 0.625rem, 0.75rem, 0.25px, center)
 }
-@mixin menu-subheader {
-// Subheader menu
-    @include typography-token($font-body, 500, 12px, 16px, 0.35px)
+@mixin subheader-menu-item {
+    // Subheader menu label
+    @include typography-token($font-body, 500, 0.75rem, 1rem, 0.35px)
 }
-@mixin menu-product-list {
-    // Product menu, horizontal variant – breakpoints >= M 
-    @include typography-token($font-heading, 600, 16px, 24px, 0.5px)
+@mixin header-menu-item {
+    // Header main product menu label
+    @include typography-token($font-heading, 600, 1rem, 1.5rem, 0.5px)
 }
-@mixin menu-product-carousel {
-    // Product menu, vertical variant – breakpoints XS, S 
-    @include typography-token($font-body, 500, 10px, 12px, 0.3px, center)
+@mixin nav-product-menu {
+    // Product menu label 
+    @include typography-token($font-body, 500, 0.625rem, 0.75rem, 0.3px, center)
 }
-@mixin button-header-primary {
-    // Primary button label, header variant
-    @include typography-token($font-heading, 600, 16px, 24px, 0.5px)
+@mixin button-primary-compact {
+    // Primary button label, compact size variant
+    @include typography-token($font-heading, 600, 1rem, 1.5rem, 0.5px)
 }
-@mixin button-header-secondary {
-    // Secondary button label, header variant
-    @include typography-token($font-heading, 600, 16px, 24px, 0.5px)
+@mixin button-secondary-compact {
+    // Secondary button label, compact size variant
+    @include typography-token($font-heading, 600, 1rem, 1.5rem, 0.5px)
 }
