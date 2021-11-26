@@ -25,7 +25,7 @@ $font-display-exp: TT Supermolot Neue Exp;
 }
 @mixin button-player-menu-amount {
     // Account button / wallet amount
-    @include typography-token($font-heading, 600, 1rem, 1rem, 0.5px, right)
+    @include typography-token($font-display, 600, 1rem, 1rem, 0.5px, right)
 }
 @mixin tooltip-label {
     // Default tooltip label
@@ -37,7 +37,7 @@ $font-display-exp: TT Supermolot Neue Exp;
 }
 @mixin header-menu-item {
     // Header main product menu label
-    @include typography-token($font-heading, 600, 1rem, 1.5rem, 0.5px)
+    @include typography-token($font-display, 600, 1rem, 1.5rem, 0.5px)
 }
 @mixin nav-product-menu {
     // Product menu label 
@@ -45,9 +45,9 @@ $font-display-exp: TT Supermolot Neue Exp;
 }
 @mixin button-primary-compact {
     // Primary button label, compact size variant
-    @include typography-token($font-heading, 600, 1rem, 1.5rem, 0.5px)
+    @include typography-token($font-display, 600, 1rem, 1.5rem, 0.5px)
 }
 @mixin button-secondary-compact {
     // Secondary button label, compact size variant
-    @include typography-token($font-heading, 600, 1rem, 1.5rem, 0.5px)
+    @include typography-token($font-display, 600, 1rem, 1.5rem, 0.5px)
 }
