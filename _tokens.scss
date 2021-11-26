@@ -75,8 +75,8 @@ $color-neutral-200: hsl(212, 41%, 92%);
 $color-neutral-100: hsl(210, 54%, 95%);
 $color-neutral-50: hsl(213, 60%, 97%);
 $color-neutral-0: hsl(0, 0%, 100%);
-$color-gradient-blue: linear-gradient(to-bottom, #004CA3 0%, #0058BD 100%);
-$color-gradient-orange: linear-gradient(to-bottom, #FFAA00 0%, #F59700 100%);
+$color-gradient-blue: linear-gradient(to bottom, #004CA3 0%, #0058BD 100%);
+$color-gradient-orange: linear-gradient(to bottom, #FFAA00 0%, #F59700 100%);
 
 // Breakpoints
 $breakpoint-xl-min: 1440px;
@@ -87,6 +87,7 @@ $breakpoint-m-min: 1000px;
 $breakpoint-s-max: $breakpoint-m-min - 1;
 $breakpoint-s-min: 640px;
 $breakpoint-xs-max: $breakpoint-s-min - 1;
+
 
 // Radius
 $radius-xs: 2px;
